@@ -1,0 +1,145 @@
+body{
+    margin:0;
+    font-family: Arial;
+}
+
+/* HEADER */
+header{
+    background:rgb(2, 85, 2);
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 40px;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+}
+
+nav ul li{
+    margin-left:20px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+/* HERO SECTION */
+.hero{
+    background:url("image\ copy\ 3.png") center/cover;
+    height:400px;
+    color:rgb(2, 85, 2);
+    text-align:center;
+    padding-top:150px;
+}
+
+.hero h2{
+    font-size:40px;
+}
+
+/* ABOUT */
+.about{
+    padding:50px;
+    text-align:center;
+    background:#c0b96b;
+}
+
+/* SERVICES */
+.services{
+    padding:50px;
+    text-align:center;
+}
+
+.box{
+    width:30%;
+    display:inline-block;
+    background:#e8f5e9;
+    margin:10px;
+    padding:20px;
+    border-radius:10px;
+    
+    transition: 0.3s;
+}
+.box:hover{
+       transform: scale(0.9);
+       color: rgb(237, 244, 237);
+       background-color:rgb(2, 85, 2);
+       border:10px solid rgb(83, 192, 50);
+}
+.crops {
+  padding: 70px 40px;
+  text-align: center;
+  background-color: #eaf4dc;
+}
+.sub {
+  color: #6b7d50;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+.crop-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.crop-card {
+  background-color: #fff;
+  border-radius: 14px;
+  padding: 28px 22px;
+  width: 220px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s, box-shadow 0.3s;
+  text-align: center;
+}
+
+.crop-card:hover {
+  transform: scale(0.9);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.13);
+}
+
+.crop-icon {
+  font-size: 44px;
+  margin-bottom: 12px;
+}
+.crop-meta {
+  margin-top: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.crop-meta span {
+  font-size: 12px;
+  color: #4a7c2f;
+  background-color: #e2f0c8;
+  padding: 3px 10px;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+.crops h2 {
+  font-size: 36px;
+  color: #2d3b1f;
+  margin-bottom: 10px;
+}
+/* CONTACT */
+.contact{
+    background:#f4f4f4;
+    text-align:center;
+    padding:40px;
+}
+
+/* FOOTER */
+footer{
+    background:rgb(2, 85, 2);
+    color:white;
+    text-align:center;
+    padding:15px;
+}
